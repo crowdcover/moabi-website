@@ -19,22 +19,22 @@
 <div class="grey content" style="padding: 0px">
   <div class="wp2">
     <div class="large-8 columns" style="padding: 75px 60px">
-      <h2>Technology</h2>
+      <h2><?php the_field('a1_title'); ?></h2>
       <p></p>
-      <p class="headline">While we are known for making some nice maps (see here, here, and here), we are developing an entire suite of tools to collect, organize, and distribute data on a wide variety of natural resource topics. </p>
+      <p class="headline"><?php the_field('a1_text'); ?></p>
     </div>
-    <div class="large-4 columns" style="background: url('<?php bloginfo('template_directory'); ?>/img/tech.jpg');height: 500px;background-size:cover"><img src=""></div>
+    <div class="large-4 columns" style="background: url('<?php the_field('a1_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
   </div>
 </div> 
 
 <div class="content" style="padding: 0px">
   <div class="wp2">
     
-    <div class="large-4 columns" style="background: url('<?php bloginfo('template_directory'); ?>/img/partner.jpg');height: 500px;background-size:cover"><img src=""></div>
+    <div class="large-4 columns" style="background: url('<?php the_field('a2_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
     <div class="large-8 columns" style="padding: 60px">
-      <h2>Partnerships</h2>
+      <h2><?php the_field('a2_title'); ?></h2>
       <p></p>
-      <p class="headline">We always work with partners. Moabi was founded by partnerships of organizations. </p>
+      <p class="headline"><?php the_field('a1_text'); ?></p>
     </div>
   </div>
 </div> 
@@ -42,11 +42,11 @@
 <div class="grey content" style="padding: 0px">
   <div class="wp2">
     <div class="large-8 columns" style="padding: 75px 60px">
-      <h2>Training</h2>
+      <h2><?php the_field('a3_title'); ?></h2>
       <p></p>
-      <p class="headline">Moabi provides training to civil society organizations in data collection, mobile mapping, collaborative mapping systems, and a range of other transparency technologies.</p>
+      <p class="headline"><?php the_field('a3_text'); ?></p>
     </div>
-    <div class="large-4 columns" style="background: url('<?php bloginfo('template_directory'); ?>/img/training.jpg');height: 500px;background-size:cover"><img src=""></div>
+    <div class="large-4 columns" style="background: url('<?php the_field('a3_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
   </div>
 </div> 
 
