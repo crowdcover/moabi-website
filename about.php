@@ -34,7 +34,7 @@
     <div class="large-8 columns" style="padding: 60px">
       <h2>Partnerships</h2>
       <p></p>
-      <p class="headline">We always work with partners. Moabi was founded by partnerships of organizations. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="headline">We always work with partners. Moabi was founded by partnerships of organizations. </p>
     </div>
   </div>
 </div> 
@@ -44,7 +44,7 @@
     <div class="large-8 columns" style="padding: 75px 60px">
       <h2>Training</h2>
       <p></p>
-      <p class="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices est orci, ut ultricies nisl condimentum non. Sed elementum</p>
+      <p class="headline">Moabi provides training to civil society organizations in data collection, mobile mapping, collaborative mapping systems, and a range of other transparency technologies.</p>
     </div>
     <div class="large-4 columns" style="background: url('<?php bloginfo('template_directory'); ?>/img/training.jpg');height: 500px;background-size:cover"><img src=""></div>
   </div>

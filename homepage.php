@@ -32,7 +32,13 @@
 </div>
 
 <div class="work">
-  
+
+  <figure class="large-3 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
+    <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
+      <h3>Moabi DRC</h3>
+    </figcaption></a>
+  </figure>  
   <figure class="large-3 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
     <a href="http://loggingroads.org/" target="_blank"><figcaption>
@@ -51,12 +57,7 @@
       <h3>Map-X</h3>
     </figcaption></a>
   </figure>
-  <figure class="large-3 columns">
-    <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
-    <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
-      <h3>Moabi DRC</h3>
-    </figcaption></a>
-  </figure>
+  
 
 </div>
 
