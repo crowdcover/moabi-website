@@ -8,14 +8,11 @@
 
 <div class="content" id="intro">
   <div class="row text-center wp2">
-    <h1><?php the_title(); ?></h1>
-    <p class="headline">insert short project summary here. Lorem ipsum et ceter aut ultricies nisl condimentum non Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h2><?php the_title(); ?></h2>
+    <span><p><?php the_time('F jS, Y') ?></p></span>
   </div>
-
-</div>
-<div class="content" style="background: url('img/map.jpg');background-size:cover;">
   
-  <div class="row" style="background: #fff; padding: 60px">
+  <div class="row" style="background: #fff;">
     <div class="large-12 columns">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 

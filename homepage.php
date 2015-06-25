@@ -100,9 +100,26 @@
   </div>
 </div>
 <div class="news">
-    <div class="large-4 columns"><a href="http://rdc.moabi.org/stories-from-the-field/en/" target="_blank"><section><h3>Forest Monitoring in the Congo Basin</h3><span><p>June 11th, 2015</p></span><p>For several years, ExCiteS and Moabi have developed new tools and approaches to forest monitoring in the Congo Basin rainforests.</p></section></a></div>
-    <div class="large-4 columns"><a href="http://rdc.moabi.org/open-maindombe/fr/" target="_blank"><section><h3>Projet Open Mai Ndombe</h3><span><p>May 11th, 2015</p></span><p>Depuis 2009, la RDC se prépare également à mettre en oeuvre la REDD+.</p></section></a></div>
-    <div class="large-4 columns"><a href="http://rdc.moabi.org/funding-facility/fr/" target="_blank"><section><h3>Funding Facility</h3><span><p>May 3rd, 2015</p></span><p>Comme annoncé au cours de la dernière réunion du consortium qui a consacré sa naissance, Funding Facility (FF), MOABI met à la disposition des OSC de la RDC une subvention visant à soutenir le processus REDD.</p></section></a></div>
+
+  <?php query_posts('cat=1&posts_per_page=3'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+        <div class="large-4 columns">
+            <a href="<?php the_permalink() ?>">
+              <section>
+                <h3><?php the_title(); ?></h3>
+                <span><p><?php the_time('F jS, Y') ?></p></span>
+                <p><?php the_excerpt(); ?></p>
+              </section>
+            </a>
+
+         </div> 
+
+        <?php endwhile; else: ?>
+
+  <p>Sorry, no posts to list</p>
+
+<?php endif; ?>
+
 </div>
 
 
