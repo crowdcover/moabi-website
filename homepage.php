@@ -32,25 +32,31 @@
 </div>
 
 <div class="work">
-
+  <figure class="large-3 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
+    <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
+      <h3>Moabi DRC</h3>
+    </figcaption></a>
+  </figure>
+  <figure class="large-3 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
+    <a href="http://loggingroads.org/" target="_blank"><figcaption>
+      <h3>Logging Roads</h3>
+    </figcaption></a>
+  </figure>
+  <figure class="large-3 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/congo.jpg" >
+    <a href="http://www.congomines.org/" target="_blank"><figcaption>
+      <h3>CongoMines</h3>
+    </figcaption></a>
+  </figure>
+  <figure class="large-3 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/mapx.jpg" >
+    <a href="http://crowdcover.github.io/geo-report" target="_blank"><figcaption>
+      <h3>Map-X</h3>
+    </figcaption></a>
+  </figure>
   
-<?php
-if ( get_query_var('paged') ) $paged = get_query_var('paged');  
-if ( get_query_var('page') ) $paged = get_query_var('page');
- 
-$query = new WP_Query( array( 'post_type' => 'portfolio', 'paged' => $paged ) );
- 
-if ( $query->have_posts() ) : ?>
-  <?php while ( $query->have_posts() ) : $query->the_post(); ?> 
-    <figure class="large-3 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center">
-      <a href="<?php the_permalink() ?>"><figcaption>
-      <h3><?php the_title(); ?></h3>
-      </figcaption></a>
-      <?php the_content(); ?>
-    </figure>
-  <?php endwhile; wp_reset_postdata(); ?>
-<?php else : ?>
-<?php endif; ?>
 
 </div>
 
