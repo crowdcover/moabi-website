@@ -34,7 +34,7 @@
     <div class="large-8 columns" style="padding: 60px">
       <h2><?php the_field('a2_title'); ?></h2>
       <p></p>
-      <p class="headline"><?php the_field('a1_text'); ?></p>
+      <p class="headline"><?php the_field('a2_text'); ?></p>
     </div>
   </div>
 </div> 
