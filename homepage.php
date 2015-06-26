@@ -32,31 +32,24 @@
 </div>
 
 <div class="work">
-  <figure class="large-3 columns">
+  <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
     <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
       <h3>Moabi DRC</h3>
     </figcaption></a>
   </figure>
-  <figure class="large-3 columns">
+  <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
     <a href="http://loggingroads.org/" target="_blank"><figcaption>
       <h3>Logging Roads</h3>
     </figcaption></a>
   </figure>
-  <figure class="large-3 columns">
+  <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/congo.jpg" >
     <a href="http://www.congomines.org/" target="_blank"><figcaption>
       <h3>CongoMines</h3>
     </figcaption></a>
   </figure>
-  <figure class="large-3 columns">
-    <img src="<?php bloginfo('template_directory'); ?>/img/mapx.jpg" >
-    <a href="http://crowdcover.github.io/geo-report" target="_blank"><figcaption>
-      <h3>Map-X</h3>
-    </figcaption></a>
-  </figure>
-  
 
 </div>
 
