@@ -1,17 +1,17 @@
- /* 
+ /*
 
 
-         d8b                 888                            888                               
-         Y8P                 888                            888                               
-                             888                            888                               
- .d8888b 888 888d888 .d8888b 888  .d88b.  .d8888b  88888b.  88888b.   .d88b.  888d888 .d88b.  
-d88P"    888 888P"  d88P"    888 d8P  Y8b 88K      888 "88b 888 "88b d8P  Y8b 888P"  d8P  Y8b 
-888      888 888    888      888 88888888 "Y8888b. 888  888 888  888 88888888 888    88888888 
-Y88b.    888 888    Y88b.    888 Y8b.          X88 888 d88P 888  888 Y8b.     888    Y8b.     
- "Y8888P 888 888     "Y8888P 888  "Y8888   88888P' 88888P"  888  888  "Y8888  888     "Y8888  
-                                                   888                                        
-                                                   888                                        
-                                                   888      
+         d8b                 888                            888
+         Y8P                 888                            888
+                             888                            888
+ .d8888b 888 888d888 .d8888b 888  .d88b.  .d8888b  88888b.  88888b.   .d88b.  888d888 .d88b.
+d88P"    888 888P"  d88P"    888 d8P  Y8b 88K      888 "88b 888 "88b d8P  Y8b 888P"  d8P  Y8b
+888      888 888    888      888 88888888 "Y8888b. 888  888 888  888 88888888 888    88888888
+Y88b.    888 888    Y88b.    888 Y8b.          X88 888 d88P 888  888 Y8b.     888    Y8b.
+ "Y8888P 888 888     "Y8888P 888  "Y8888   88888P' 88888P"  888  888  "Y8888  888     "Y8888
+                                                   888
+                                                   888
+                                                   888
 
  */
 
@@ -179,10 +179,10 @@ a .fa {
 }
 
 .action figcaption {
-  padding: 0px; 
-  position: absolute; 
+  padding: 0px;
+  position: absolute;
   background: transparent;
-  opacity: 1; 
+  opacity: 1;
   transition: all 0.2s ease-in-out;
 }
 
@@ -209,7 +209,7 @@ a .fa {
 }
 
 .action figcaption:hover {
-  background: rgba(53,58,60,0.95); 
+  background: rgba(53,58,60,0.95);
   transition: all 0.2s ease-in-out;
 }
 
@@ -255,7 +255,7 @@ a .fa {
 }
 
 .content {
-  width: 100%; 
+  width: 100%;
   background: #fff;
   padding: 80px 0;
   overflow: auto;
@@ -486,13 +486,13 @@ a .fa {
 .header h1 {
   color: #fff;
   letter-spacing: 1px;
-  margin-top: 30%;
+  margin-top: 27%;
   font-size: 3.5em!important;
 }
 
 .header h2 {
   color: #fff;
-  font-size: 2.9em!important;
+  font-size: 2.7em!important;
 }
 
 .header button {
@@ -745,7 +745,7 @@ a .fa {
   -ms-transform     : rotateY(90deg) translateZ(40px);
   transform         : rotateY(90deg) translateZ(40px);
   background-color  : #8789b9;
- 
+
 }
 
 #cube div:nth-child(3) {
@@ -755,7 +755,7 @@ a .fa {
   -ms-transform     : rotateY(180deg) translateZ(40px);
   transform         : rotateY(180deg) translateZ(40px);
   background-color  : #fff;
- 
+
 }
 
 #cube div:nth-child(4) {
@@ -765,7 +765,7 @@ a .fa {
   -ms-transform     : rotateY(-90deg) translateZ(40px);
   transform         : rotateY(-90deg) translateZ(40px);
   background-color  : #a3a4c4;
- 
+
 }
 
 #cube div:nth-child(5) {
@@ -776,7 +776,7 @@ a .fa {
   transform         : rotateX(-90deg) translateZ(40px) rotate(180deg);
   background-color  : #cdf6ff;
 
-  
+
   background-repeat :no-repeat;
 }
 
@@ -787,7 +787,7 @@ a .fa {
   -ms-transform     : rotateX(90deg) translateZ(40px);
   transform         : rotateX(90deg) translateZ(40px);
   background-color  : #ffcdcd;
-  text-align:center;  
+  text-align:center;
 }
 
 .fullWidth {
@@ -797,11 +797,11 @@ a .fa {
    max-width: initial!important;
 }
 
-figure { 
-  display: block; 
-  position: relative; 
+figure {
+  display: block;
+  position: relative;
   float: left;
-  overflow: hidden; 
+  overflow: hidden;
   width: 100%;
   margin: 0;
 
@@ -810,17 +810,17 @@ figure {
   padding-left: 5px!important;
 }
 
-figcaption { 
-  position: absolute; 
-  background: rgba(53,58,60,0.95); 
-  color: white; 
+figcaption {
+  position: absolute;
+  background: rgba(53,58,60,0.95);
+  color: white;
   padding: 50% 100px;
-  text-align: center; 
+  text-align: center;
   width: 100%;
   color: #fff!important;
   height: 100%;
   opacity: 0;
-  top: 0; 
+  top: 0;
   -webkit-transition: opacity 0.6s ease;
   -moz-transition:    opacity 0.6s ease;
   -o-transition:      opacity 0.6s ease;
@@ -868,9 +868,9 @@ figure img {
   width: 100%;
 }
 
-figure:before { 
-  position: absolute; 
-  background: rgba(255,255,255,0.75); 
+figure:before {
+  position: absolute;
+  background: rgba(255,255,255,0.75);
   color: black;
   width: 24px;
   height: 24px;
@@ -884,21 +884,21 @@ figure:before {
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
-  opacity: 0.75;  
+  opacity: 0.75;
 }
 figure:hover:before {
   opacity: 0;
 }
 
-input[type=text], input[type=email], input[type=location] { 
-    font-size: 18px!important; 
+input[type=text], input[type=email], input[type=location] {
+    font-size: 18px!important;
     background-color: #fff!important;
-    box-shadow: none!important;  
-    height: 60px!important; 
-    border: solid 1px #fff!important; 
-    padding: 15px!important; width: 100%!important; 
+    box-shadow: none!important;
+    height: 60px!important;
+    border: solid 1px #fff!important;
+    padding: 15px!important; width: 100%!important;
     color: #000; margin: 20px!important;
-    outline: 0!important; 
+    outline: 0!important;
     font-size: 1.2em!important;
     line-height: 1.7em!important;
     font-weight: 200!important;
@@ -908,12 +908,12 @@ input[type=submit] { font-size: 18px; background: #262e30; width: 100%; padding:
 input[type=submit]:hover { background: #fff; color: #000; }
 
 select {
-  border:none!important; 
+  border:none!important;
   background: #fff!important;
    width: 100%;
-   padding: 15px!important;  
+   padding: 15px!important;
    height: 60px!important;
-   margin: 20px!important; 
+   margin: 20px!important;
    font-size: 18px;
    -webkit-appearance: none;
    -moz-appearance: none;
@@ -934,7 +934,7 @@ textarea {
   padding: 15px!important;
   margin: 20px!important;
   height: 250px!important;
-  font-size:18px; 
+  font-size:18px;
   border: none!important;
   font-size: 1.2em!important;
   line-height: 1.7em!important;
@@ -979,7 +979,7 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
   }
 
   #nav-toggle {
-  
+
   padding: 20px 55px 16px 0px!important;
 }
 
@@ -1084,19 +1084,19 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
   }
 }
 
-.delay-1s { 
+.delay-1s {
   animation-delay: 1s;
-  -webkit-animation-delay: 1s; 
+  -webkit-animation-delay: 1s;
 }
 
-.delay-15s { 
+.delay-15s {
   animation-delay: 1.5s;
-  -webkit-animation-delay: 1.5s; 
+  -webkit-animation-delay: 1.5s;
 }
 
-.delay-2s { 
-  animation-delay: 2s; 
-  -webkit-animation-delay: 2s; 
+.delay-2s {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
 
  #nav-toggle {
