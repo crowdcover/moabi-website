@@ -10,7 +10,7 @@
 <div class="content" id="intro">
   <div class="row text-center wp2">
     <h1>What we Do</h1>
-    <p class="headline">Moabi helps communities and organizations - both small and large - build transparency and accountability in some of the remotest, challenging locations and most controversial environmental topics. We do this by doing three things.</p>
+    <p class="headline">Moabi helps communities and organizations - both small and large - build transparency and accountability on complex environmental issues in some of the most remote and challenging locations on Earth. We do this by doing three things:</p>
   </div>
 
 </div>
@@ -25,11 +25,11 @@
     </div>
     <div class="large-4 columns" style="background: url('<?php the_field('a1_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
   </div>
-</div> 
+</div>
 
 <div class="content" style="padding: 0px">
   <div class="wp2">
-    
+
     <div class="large-4 columns" style="background: url('<?php the_field('a2_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
     <div class="large-8 columns" style="padding: 60px">
       <h2><?php the_field('a2_title'); ?></h2>
@@ -37,7 +37,7 @@
       <p class="headline"><?php the_field('a2_text'); ?></p>
     </div>
   </div>
-</div> 
+</div>
 
 <div class="grey content" style="padding: 0px">
   <div class="wp2">
@@ -48,7 +48,7 @@
     </div>
     <div class="large-4 columns" style="background: url('<?php the_field('a3_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
   </div>
-</div> 
+</div>
 
 <div class="content" >
   <div class="row text-center wp2">

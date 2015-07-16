@@ -1,7 +1,7 @@
 <?php /* Template Name: Homepage */ ?>
 
 <?php get_header(); ?>
-  
+
 <a href="#whatismoabi" class="scroll fa fa-angle-down arrow" id="whatismoabi"></a>
 <div class="header" >
   <div class="row" >
@@ -56,9 +56,9 @@
 <div class="grey content">
   <div class="row text-center wp2">
     <h1>Moabi in Action</h1>
-    <p class="headline">Read some examples of how apply our technology<br> and approaches to real world cases</p>
+    <p class="headline">Read about how we have applied our technology and approaches on the ground in the Congo. </p>
   </div>
-</div>  
+</div>
 <div class="action">
     <figure class="large-6 columns featr" style="background: url('http://178.62.69.5/wp-content/uploads/2015/06/palm2-1024x768.jpg');background-size: cover; background-position: bottom;">
       <a href="http://rdc.moabi.org/palm-oil-boom/en/#5/-2.877/22.830&layers=moabi_forest_cover" target="_blank"><figcaption>
@@ -104,7 +104,7 @@
               </section>
             </a>
 
-         </div> 
+         </div>
 
         <?php endwhile; else: ?>
 
