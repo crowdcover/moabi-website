@@ -1,7 +1,7 @@
 <?php /* Template Name: Homepage_NEW */ ?>
 
 <?php get_header(); ?>
-  
+
 <a href="#whatismoabi" class="scroll fa fa-angle-down arrow" id="whatismoabi"></a>
 <div class="header" >
   <div class="row" >
@@ -33,15 +33,15 @@
 
 <div class="work">
 
-  
+
 <?php
-if ( get_query_var('paged') ) $paged = get_query_var('paged');  
+if ( get_query_var('paged') ) $paged = get_query_var('paged');
 if ( get_query_var('page') ) $paged = get_query_var('page');
- 
+
 $query = new WP_Query( array( 'post_type' => 'portfolio', 'paged' => $paged ) );
- 
+
 if ( $query->have_posts() ) : ?>
-  <?php while ( $query->have_posts() ) : $query->the_post(); ?> 
+  <?php while ( $query->have_posts() ) : $query->the_post(); ?>
     <figure class="large-3 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center">
       <a href="<?php the_permalink() ?>"><figcaption>
       <h3><?php the_title(); ?></h3>
@@ -59,7 +59,7 @@ if ( $query->have_posts() ) : ?>
     <h1>Moabi in Action</h1>
     <p class="headline">Read some examples of how apply our technology<br> and approaches to real world cases</p>
   </div>
-</div>  
+</div>
 <div class="action">
     <figure class="large-6 columns featr" style="background: url('http://178.62.69.5/wp-content/uploads/2015/06/palm2-1024x768.jpg');background-size: cover; background-position: bottom;">
       <a href="http://rdc.moabi.org/palm-oil-boom/en/#5/-2.877/22.830&layers=moabi_forest_cover" target="_blank"><figcaption>
@@ -86,6 +86,27 @@ if ( $query->have_posts() ) : ?>
       </figcaption></a>
     </figure>
 </div>
+
+<?php
+if ( get_query_var('paged') ) $paged = get_query_var('paged');
+if ( get_query_var('page') ) $paged = get_query_var('page');
+
+$query = new WP_Query( array( 'post_type' => 'reports', 'paged' => $paged ) );
+
+if ( $query->have_posts() ) : ?>
+  <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+  <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+    <figure class="large-6 columns" style="background: url('<?php echo $url ?>');background-size: cover;background-position:bottom">
+      <a href="<?php the_permalink() ?>"><figcaption>
+      <h3><?php the_title(); ?></h3>
+      <p class="headline"><?php the_excerpt(); ?></p>
+      </figcaption></a>
+
+    </figure>
+  <?php endwhile; wp_reset_postdata(); ?>
+<?php else : ?>
+<?php endif; ?>
+
 <div class="content">
   <div class="row text-center wp2">
     <h1>News</h1>
@@ -105,7 +126,7 @@ if ( $query->have_posts() ) : ?>
               </section>
             </a>
 
-         </div> 
+         </div>
 
         <?php endwhile; else: ?>
 

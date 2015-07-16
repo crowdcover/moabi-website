@@ -150,7 +150,7 @@ function Reports() {
 		'label'               => __( 'Reports', 'text_domain' ),
 		'description'         => __( 'For the reports page', 'text_domain' ),
 		'labels'              => $labels,
-		'supports'            => array( 'title', ),
+		'supports'            => array( 'title', 'editor', 'excerpt', 'thumbnail' ),
 		'taxonomies'          => array( 'category', 'post_tag' ),
 		'hierarchical'        => false,
 		'public'              => true,
