@@ -21,7 +21,7 @@
     <div class="large-8 columns" style="padding: 75px 60px">
       <h2><?php the_field('a1_title'); ?></h2>
       <p></p>
-      <p class="headline"><?php the_field('a1_text'); ?></p>
+      <p><?php the_field('a1_text'); ?></p>
     </div>
     <div class="large-4 columns" style="background: url('<?php the_field('a1_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
   </div>
@@ -34,7 +34,7 @@
     <div class="large-8 columns" style="padding: 60px">
       <h2><?php the_field('a2_title'); ?></h2>
       <p></p>
-      <p class="headline"><?php the_field('a2_text'); ?></p>
+      <p><?php the_field('a2_text'); ?></p>
     </div>
   </div>
 </div>
@@ -44,7 +44,7 @@
     <div class="large-8 columns" style="padding: 75px 60px">
       <h2><?php the_field('a3_title'); ?></h2>
       <p></p>
-      <p class="headline"><?php the_field('a3_text'); ?></p>
+      <p><?php the_field('a3_text'); ?></p>
     </div>
     <div class="large-4 columns" style="background: url('<?php the_field('a3_image'); ?>');height: 500px;background-size:cover"><img src=""></div>
   </div>
