@@ -42,7 +42,7 @@ $query = new WP_Query( array( 'post_type' => 'portfolio', 'paged' => $paged ) );
 
 if ( $query->have_posts() ) : ?>
   <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-    <figure class="large-3 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center">
+    <figure class="large-3 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center;height:400px">
       <a href="<?php the_permalink() ?>"><figcaption>
       <h3><?php the_title(); ?></h3>
       </figcaption></a>
@@ -70,7 +70,7 @@ if ( $query->have_posts() ) : ?>
   if ( $query->have_posts() ) : ?>
     <?php while ( $query->have_posts() ) : $query->the_post(); ?>
     <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-      <figure class="large-6 columns" style="background: url('<?php echo $url ?>');background-size: cover;background-position:bottom">
+      <figure class="large-6 columns featr" style="background: url('<?php echo $url ?>');background-size: cover;background-position:bottom">
         <a href="<?php the_permalink() ?>"><figcaption>
         <h3><?php the_title(); ?></h3>
         <p class="headline"><?php the_excerpt(); ?></p>
