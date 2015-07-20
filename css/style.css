@@ -192,8 +192,8 @@ a .fa {
   right: inherit;
   text-align: left;
   font-weight: 500!important;
-  font-size: 1.5em!important;
-  top: 83%;
+  font-size: 1.8em!important;
+  top: 240px;
   padding-bottom: 0px!important;
   padding: 0px!important;
   transition: all 0.2s ease-in-out;
@@ -215,11 +215,14 @@ a .fa {
 }
 
 .action figcaption:hover h3 {
-  top: 5%;
+  top: 30px;
   bottom: inherit;
   -webkit-transition: top 0.2s!important;
     -moz-transition: top 0.2s!important;
     -o-transition: top 0.2s!important;
+    -webkit-transition: bottom 0.2s!important;
+      -moz-transition: bottom 0.2s!important;
+      -o-transition: bottom 0.2s!important;
 }
 
 .action figcaption:hover p {
