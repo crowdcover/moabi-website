@@ -262,7 +262,7 @@ a .fa {
 }
 
 .content .headline {
-  color: #bdbdbd;
+  color: #898989;
 }
 
 .content h1 {
@@ -1146,6 +1146,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
   color: #fff!important;
   font-size: 1.1em;
   font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .cbp-spmenu a:hover {

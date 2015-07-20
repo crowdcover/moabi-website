@@ -26,7 +26,7 @@
 <div class="content">
   <div class="row text-center wp2">
     <h1>Projects</h1>
-    <p class="headline">Moabi has worked on a diverse range of projects with both local and international partners. Below are short overviews of our most recent projects. If you’d like to work with us on your project, get in touch! </p>
+    <p class="headline">Moabi has worked on a diverse range of projects with both local and international partners. Below are short overviews of our most recent projects. If you’d like to work with us on your project, <a href="mailto:info@crowdcover.org">get in touch!</a> </p>
   </div>
 
 </div>
@@ -35,19 +35,19 @@
   <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
     <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
-      <h3>Moabi DRC</h3>
+      <h3>A collaborative mapping initiative to monitor natural resources in DRC and strengthen REDD+ safeguards</h3>
     </figcaption></a>
   </figure>
   <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
     <a href="http://loggingroads.org/" target="_blank"><figcaption>
-      <h3>Logging Roads</h3>
+      <h3>A joint initiative with the World Resource Institute to map all the logging roads in the Congo Basin using crowdsourcing</h3>
     </figcaption></a>
   </figure>
   <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/congo.jpg" >
     <a href="http://www.congomines.org/" target="_blank"><figcaption>
-      <h3>CongoMines</h3>
+      <h3>A Carter Center project using Moabi technology to document mining operations and contracts in DRC</h3>
     </figcaption></a>
   </figure>
 

@@ -26,7 +26,7 @@
 <div class="content">
   <div class="row text-center wp2">
     <h1>Projects</h1>
-    <p class="headline">Moabi has worked on a diverse range of projects with both local and international partners. Below are short overviews of our most recent projects. If you’d like to work with us on your project, get in touch! </p>
+    <p class="headline">Moabi has worked on a diverse range of projects with both local and international partners. Below are short overviews of our most recent projects. If you’d like to work with us on your project, <a href="mailto:info@crowdcover.org">get in touch!</a> </p>
   </div>
 
 </div>
