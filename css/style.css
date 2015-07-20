@@ -831,6 +831,8 @@ figcaption h3 {
   top: 50%;
   left: 0;
   right: 0;
+  font-weight: 400!important;
+  padding: 0px 30px;
 }
 
 figure:hover figcaption h3 {
