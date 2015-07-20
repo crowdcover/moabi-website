@@ -226,10 +226,9 @@ a .fa {
 .action figcaption:hover p {
   bottom: 150px;
   top: 80px;
-
-     -webkit-transition: top 0.2s!important;
-    -moz-transition: top 0.2s!important;
-    -o-transition: top 0.2s!important;
+  -webkit-transition: bottom 0.2s!important;
+    -moz-transition: bottom 0.2s!important;
+    -o-transition: bottom 0.2s!important;
 }
 
 .action .featr {
