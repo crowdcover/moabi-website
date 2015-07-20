@@ -6,7 +6,7 @@
 <div class="content" id="intro">
   <div class="row text-center wp2">
     <h1>Who we Are</h1>
-    <p class="headline">We are a team of cartographers, coders, forest monitors, GIS experts, gender specialists and econometric modelers. Our team spans three continents and works to build simple yet robust technology, train local organizations and expand our collaborations. </p>
+    <p class="headline">We are a team of cartographers, coders, forest monitors, GIS experts, gender specialists and econometric modelers. Our team spans three continents and works to build simple yet robust technology, train local organizations, and expand our partnerships.   </p>
   </div>
   <div class="row">
     <div class="large-12 columns">
