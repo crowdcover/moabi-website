@@ -2,11 +2,11 @@
 
 <div class="grey content partner">
   <div class="row">
-  <div class="large-12 columns text-center ">
+  <div class="large-6 columns text-center ">
     <h3>Partners</h3>
     <a href="http://www.iiasa.ac.at/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/iia.png"></a><a href="http://www.ogfrdc.cd/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ogf.png"></a><a href="http://www.osfac.net/index.php?lang=en" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/osfa.png"></a>
   </div>
-  <div class="large-12 columns text-center ">
+  <div class="large-6 columns text-center ">
     <h3>Donors</h3>
     <a href="http://www.norad.no/en/front/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/norad.png"></a><a href="http://www.globalforestwatch.org/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/global.png"></a><a href="http://www.efi.int/portal/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/efi.png"></a>
   </div>
