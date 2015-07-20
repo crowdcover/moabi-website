@@ -299,7 +299,8 @@ a .fa {
 
 .partner img {
   max-height: 70px;
-  margin: 0px 20px;
+  max-width: 120px;
+  margin: 20px;
   opacity: 0.5;
   transition: opacity 0.2s ease-in-out;
   -webkit-filter: grayscale(100%);
