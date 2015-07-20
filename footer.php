@@ -30,7 +30,7 @@
 
     <div class="large-3 columns">
      <h3>Connect With Us</h3>
-     <p><a href="https://twitter.com/moabimaps" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://github.com/crowdcover" target="_blank"><i class="fa fa-github"></i></a> </p>
+     <p><a href="https://twitter.com/moabimaps" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/MoabiMapping" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://github.com/crowdcover" target="_blank"><i class="fa fa-github"></i></a> </p>
     </div>
   </div>
   <div class="row divider"></div>
