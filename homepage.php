@@ -56,7 +56,7 @@
 <div class="grey content">
   <div class="row text-center wp2">
     <h1>Moabi in Action</h1>
-    <p class="headline">Read about how we have applied our technology and approaches on the ground in the Congo. </p>
+    <p class="headline">Read about how we have applied our technology<br> and approaches on the ground.  </p>
   </div>
 </div>
 <div class="action">
