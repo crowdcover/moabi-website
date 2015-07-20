@@ -302,11 +302,13 @@ a .fa {
   margin-right: 20px;
   opacity: 0.5;
   transition: opacity 0.2s ease-in-out;
+  -webkit-filter: grayscale(100%);
 }
 
 .partner img:hover {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
+  -webkit-filter: grayscale(0%);
 }
 
 .partner h3 {

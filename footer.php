@@ -4,9 +4,9 @@
   <div class="row">
   <div class="large-12 columns text-center ">
     <h3>Partners</h3>
-    <a href="http://www.ogfrdc.cd/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ogf.jpg"></a><a href="http://www.iiasa.ac.at/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/iia.jpg"></a><a href="http://www.osfac.net/index.php?lang=en" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/osfa.jpg"></a>
+    <a href="http://www.ogfrdc.cd/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ogf.png"></a><a href="http://www.iiasa.ac.at/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/iia.png"></a><a href="http://www.osfac.net/index.php?lang=en" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/osfa.png"></a>
   </div>
-  
+
   </div>
 </div>
 
@@ -23,7 +23,7 @@
       <p><a href="/team">Who we Are</a></p>
       <p><a href="/team">Contact Us</a></p>
     </div>
- 
+
     <div class="large-3 columns">
      <h3>Connect With Us</h3>
      <p><a href="https://twitter.com/moabimaps" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://github.com/crowdcover" target="_blank"><i class="fa fa-github"></i></a> </p>
@@ -49,4 +49,4 @@
       $(document).foundation();
     </script>
   </body>
-</html> 
+</html>
