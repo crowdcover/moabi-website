@@ -4,7 +4,7 @@
   <div class="row">
   <div class="large-12 columns text-center ">
     <h3>Partners</h3>
-    <a href="http://www.ogfrdc.cd/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ogf.png"></a><a href="http://www.iiasa.ac.at/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/iia.png"></a><a href="http://www.osfac.net/index.php?lang=en" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/osfa.png"></a>
+    <a href="http://www.ogfrdc.cd/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ogf.png"></a><a href="http://www.iiasa.ac.at/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/iia.png"></a><a href="http://www.osfac.net/index.php?lang=en" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/osfa.png"></a><a href="http://www.wri.org/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/wri.png"></a><a href="http://www.wwf.ca/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/wwf.png"></a><a href="http://www.umd.edu/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/uni.png"></a>
   </div>
 
   </div>
