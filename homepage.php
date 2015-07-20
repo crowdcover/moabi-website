@@ -35,19 +35,19 @@
   <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
     <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
-      <h3>A collaborative mapping initiative to monitor natural resources in DRC and strengthen REDD+ safeguards</h3>
+      <p class="headline">A collaborative mapping initiative to monitor natural resources in DRC and strengthen REDD+ safeguards</p>
     </figcaption></a>
   </figure>
   <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
     <a href="http://loggingroads.org/" target="_blank"><figcaption>
-      <h3>A joint initiative with the World Resource Institute to map all the logging roads in the Congo Basin using crowdsourcing</h3>
+      <p class="headline">A joint initiative with the World Resource Institute to map all the logging roads in the Congo Basin using crowdsourcing</p>
     </figcaption></a>
   </figure>
   <figure class="large-4 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/congo.jpg" >
     <a href="http://www.congomines.org/" target="_blank"><figcaption>
-      <h3>A Carter Center project using Moabi technology to document mining operations and contracts in DRC</h3>
+      <p class="headline">A Carter Center project using Moabi technology to document mining operations and contracts in DRC</p>
     </figcaption></a>
   </figure>
 
