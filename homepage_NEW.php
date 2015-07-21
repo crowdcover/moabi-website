@@ -27,7 +27,7 @@
   <div class="row text-center wp2">
     <h1>Projects</h1>
     <p class="headline">Moabi has worked on a diverse range of projects with both local and international partners. Below are short overviews of our most recent projects. If you’d like to work with us on your project, <a href="mailto:info@crowdcover.org">get in touch!</a> </p>
-  </div>
+    </div>
 
 </div>
 
@@ -44,7 +44,7 @@ if ( $query->have_posts() ) : ?>
   <?php while ( $query->have_posts() ) : $query->the_post(); ?>
     <figure class="large-4 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center;height:450px">
       <a href="<?php the_permalink() ?>"><figcaption>
-      <h3><?php the_title(); ?></h3>
+      <h3>'<?php the_field('project_excerpt'); ?></h3>
       </figcaption></a>
       <?php the_content(); ?>
     </figure>
@@ -57,7 +57,7 @@ if ( $query->have_posts() ) : ?>
 <div class="grey content">
   <div class="row text-center wp2">
     <h1>Moabi in Action</h1>
-    <p class="headline">Read some examples of how apply our technology<br> and approaches to real world cases</p>
+    <p class="headline">Read about how we have applied our technology<br> and approaches on the ground.</p>
   </div>
 </div>
 <div class="action">
