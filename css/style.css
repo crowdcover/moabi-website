@@ -1008,7 +1008,7 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
   }
 
  .header h1 {
-  font-size: 2em!important;
+  font-size: 1.8em!important;
   padding-top: 50px;
   margin-top: 15%;
  }
@@ -1051,7 +1051,7 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
 @media screen and (max-width:640px) {
 
   body {
-    background-size: 250%!important;
+    background-size: 300%!important;
   }
 
 .pg {
