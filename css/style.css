@@ -1010,6 +1010,7 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
  .header h1 {
   font-size: 2.3em!important;
   padding-top: 50px;
+  margin-top: 15%;
  }
 
  .header h2 {
