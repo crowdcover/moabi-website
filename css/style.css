@@ -965,7 +965,7 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
   }
 
   .action figcaption p {
-    bottom: -100%;
+    display: none;
   }
 
   .action figcaption h3 {
