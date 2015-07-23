@@ -79,7 +79,7 @@
       </figcaption></a>
     </figure>
     <figure class="large-6 columns featr" style="background: url('<?php bloginfo('template_directory'); ?>/img/place2.jpg');background-size: cover; background-position: bottom;">
-      <a href="single.html"><figcaption>
+      <a href="http://rdc.moabi.org/redd_risk/en/#5/-2.833/22.830&layers=moabi_redd_projects"><figcaption>
         <h3>Competition for resources threatens REDD+ in DRC</h3>
         <p class="headline">Future forest loss in DRC is very uncertain. Decades of conflict and under investment have prevented the industrial scale of forestry and agricultural activities that characterized deforestation in Brazil and Indonesia – the other two large rainforest countries.</p>
       </figcaption></a>
