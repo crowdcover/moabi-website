@@ -999,8 +999,12 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
     text-align: center;
   }
 
+  .dark {
+    padding: 60px 10px;
+  }
+
   .content {
-      padding: 80px 10px;
+      padding: 60px 10px;
   }
 
   .content h1 {
@@ -1094,6 +1098,7 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
 
  .header h1 {
    font-size: 1.7em!important;
+   padding-top: 70px;
  }
 
  .header h2 {
