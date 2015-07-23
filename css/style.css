@@ -1089,11 +1089,11 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
  }
 
  .header h1 {
-   font-size: 1.7em;
+   font-size: 1.7em!important;
  }
 
  .header h2 {
-   font-size: 1.5em;
+   font-size: 1.4em!important;
  }
 
 }
