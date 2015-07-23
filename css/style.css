@@ -1003,11 +1003,13 @@ input:focus, input[type=text]:focus,input[type=email]:focus,input[type=location]
     padding: 60px 10px;
   }
 
+
+
   .content {
       padding: 60px 10px;
   }
 
-  .content h1 {
+  .content h1, .dark h1 {
     font-size: 2em!important;
   }
 
