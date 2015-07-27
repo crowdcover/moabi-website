@@ -35,7 +35,6 @@
     <div class="large-12 columns">
      <?php query_posts('post_type=team&category_name=drc-team'); while ( have_posts() ) : the_post(); ?>
 
-
 	      <div class="divider"></div>
 		  <div class="row grey collapse">
 		    <div class="large-6 columns" style="padding: 60px">

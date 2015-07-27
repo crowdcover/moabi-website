@@ -6,6 +6,7 @@
 <div class="content" id="intro">
   <div class="row text-center wp2">
     <h1><?php the_title(); ?></h1>
+    <p class="headline"><?php the_field('subline'); ?></p>
     <div class="divider"></div>
   </div>
   <div class="row">
