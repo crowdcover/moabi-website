@@ -25,7 +25,7 @@
        <h3>Organization</h3>
       <p><a href="/about">About</a></p>
       <p><a href="/team">Who we Are</a></p>
-      <p><a href="/team">Contact Us</a></p>
+      <p><a href="/contact">Contact Us</a></p>
     </div>
 
     <div class="large-3 columns">
