@@ -10,7 +10,7 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-     <?php while ( have_posts() ) : the_post(); ?>
+     <?php query_posts('post_type=team&category_name=washington-dc'); while ( have_posts() ) : the_post(); ?>
 
 
 	      <div class="divider"></div>
