@@ -54,7 +54,7 @@
 
 <div class="content">
   <div class="row text-center wp2">
-  <a href="/portfolio"><button> Learn More</button></a>
+  <a href="/portfolio"><button>View More</button></a>
   </div>
 </div>
 
@@ -90,6 +90,13 @@
       </figcaption></a>
     </figure>
 </div>
+
+<div class="grey content">
+  <div class="row text-center wp2">
+  <a href="/reports"><button>View More</button></a>
+  </div>
+</div>
+
 <div class="content">
   <div class="row text-center wp2">
     <h1>News</h1>
