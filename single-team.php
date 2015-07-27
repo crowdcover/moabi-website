@@ -13,10 +13,10 @@
       <p><span><?php the_field('company_role'); ?></span></p>
       </center>
       <div class="row grey collapse">
-        <div class="large-8 columns" style="padding: 60px">
+        <div class="large-12 columns" style="padding: 60px">
           <p><?php the_field('biography'); ?></p>
         </div>
-        <div class="large-4 columns text-center " style="background: url('<?php the_field('headshot'); ?>');height: 300px;background-size:cover"></div>
+        <div class="large-12 columns text-center " style="background: url('<?php the_field('headshot'); ?>');height: 600px;background-size:cover"></div>
 
       </div>
       <?php endwhile; ?>
