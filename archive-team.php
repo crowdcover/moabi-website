@@ -28,6 +28,7 @@
    		<?php endwhile; // end of the loop. ?>
     </div>
   </div>
+  <div class="divider"></div>
   <div class="row">
   	<h2 class="text-center">DRC team</h2>
     <div class="large-12 columns">
