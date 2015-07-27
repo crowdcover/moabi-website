@@ -10,7 +10,8 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-    <?php query_posts('cat=2'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+     <?php while ( have_posts() ) : the_post(); ?>
+
 
 	      <div class="divider"></div>
 		  <div class="row grey collapse">
