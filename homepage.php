@@ -123,7 +123,7 @@
   <p>Sorry, no posts to list</p>
 
 <?php endif; ?>
-
+  <div class="divider"></div>
   <div class="row text-center wp2">
   <a href="/news"><button>View More</button></a>
   </div>
