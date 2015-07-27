@@ -126,5 +126,11 @@
 
 </div>
 
+<div class="content">
+  <div class="row text-center wp2">
+  <a href="/news"><button>View More</button></a>
+  </div>
+</div>
+
 
 <?php get_footer(); ?>

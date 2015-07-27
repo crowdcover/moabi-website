@@ -5,7 +5,7 @@
 <div class="headerpg" ></div>
 
 </div>
-<div class="content">
+<div class="content" id="intro">
   <div class="row text-center wp2">
     <h1>News</h1>
     <p class="headline">Some of our most recent news articles</p>
