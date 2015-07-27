@@ -8,6 +8,7 @@
     <h1>Who we Are</h1>
     <p class="headline">We are a team of cartographers, coders, forest monitors, GIS experts, gender specialists and econometric modelers. Our team spans three continents and works to build simple yet robust technology, train local organizations,<br> and expand our partnerships.   </p>
   </div>
+  <div class="divider"></div>
   <div class="row">
   	<h2 class="text-center">Washington DC team</h2>
     <div class="large-12 columns">
