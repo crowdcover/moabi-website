@@ -38,7 +38,7 @@
 if ( get_query_var('paged') ) $paged = get_query_var('paged');
 if ( get_query_var('page') ) $paged = get_query_var('page');
 
-$query = new WP_Query( array( 'post_type' => 'portfolio', 'paged' => $paged ) );
+$query = new WP_Query( array( 'post_type' => 'portfolio', 'paged' => $paged, 'posts_per_page' => 3 ) );
 
 if ( $query->have_posts() ) : ?>
   <?php while ( $query->have_posts() ) : $query->the_post(); ?>
@@ -65,7 +65,7 @@ if ( $query->have_posts() ) : ?>
   if ( get_query_var('paged') ) $paged = get_query_var('paged');
   if ( get_query_var('page') ) $paged = get_query_var('page');
 
-  $query = new WP_Query( array( 'post_type' => 'reports', 'paged' => $paged ) );
+  $query = new WP_Query( array( 'post_type' => 'reports', 'paged' => $paged, 'posts_per_page' => 4 ) );
 
   if ( $query->have_posts() ) : ?>
     <?php while ( $query->have_posts() ) : $query->the_post(); ?>
