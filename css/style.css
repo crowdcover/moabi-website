@@ -193,7 +193,7 @@ a .fa {
   text-align: left;
   font-weight: 500!important;
   font-size: 1.7em!important;
-  top: 380px;
+  top: 350px;
   padding-bottom: 0px!important;
   padding: 0px!important;
   transition: all 0.2s ease-in-out;
@@ -228,7 +228,7 @@ a .fa {
 
 .action figcaption:hover p {
   bottom: 150px;
-  top: 80px;
+  top: 120px;
   -webkit-transition: bottom 0.2s!important;
     -moz-transition: bottom 0.2s!important;
     -o-transition: bottom 0.2s!important;
