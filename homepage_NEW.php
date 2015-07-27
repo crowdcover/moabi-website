@@ -42,7 +42,7 @@ $query = new WP_Query( array( 'post_type' => 'portfolio', 'paged' => $paged ) );
 
 if ( $query->have_posts() ) : ?>
   <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-    <figure class="large-4 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center;height:450px">
+    <figure class="large-4 columns" style="background: url('<?php the_field('project_logo'); ?>');background-size: cover;background-position:center;height:550px">
       <a href="<?php the_permalink() ?>"><figcaption>
       <h3>'<?php the_field('project_excerpt'); ?></h3>
       </figcaption></a>
