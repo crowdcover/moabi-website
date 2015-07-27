@@ -55,6 +55,8 @@ http://circlesphere.co
   <a href="/">Home</a>
   <a href="/about">About</a>
   <a href="/team">Who we Are</a>
+  <a href="/how-we-work">How we Work</a>
+  <a href="/jobs">Jobs</a>
   <a href="/contact">Contact Us</a>
 </nav> 
     
