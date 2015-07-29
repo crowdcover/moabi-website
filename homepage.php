@@ -124,7 +124,7 @@
   <p>Sorry, no posts to list</p>
 
 <?php endif; ?>
-  <div class="large-12 columns text-center ">
+  <div class="large-12 columns text-center" style="padding-top:60px;">
   <a href="/news"><button>View More</button></a>
   </div>
 

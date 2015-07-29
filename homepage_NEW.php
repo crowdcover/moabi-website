@@ -54,6 +54,12 @@ if ( $query->have_posts() ) : ?>
 
 </div>
 
+<div class="content">
+  <div class="row text-center wp2">
+  <a href="/portfolio"><button>View More</button></a>
+  </div>
+</div>
+
 <div class="grey content">
   <div class="row text-center wp2">
     <h1>Moabi in Action</h1>
@@ -82,7 +88,11 @@ if ( $query->have_posts() ) : ?>
   <?php endif; ?>
 </div>
 
-
+<div class="grey content">
+  <div class="row text-center wp2">
+  <a href="/reports"><button>View More</button></a>
+  </div>
+</div>
 
 <div class="content">
   <div class="row text-center wp2">
@@ -110,6 +120,10 @@ if ( $query->have_posts() ) : ?>
   <p>Sorry, no posts to list</p>
 
 <?php endif; ?>
+
+<div class="large-12 columns text-center" style="padding-top:60px;">
+  <a href="/news"><button>View More</button></a>
+  </div>
 
 </div>
 
