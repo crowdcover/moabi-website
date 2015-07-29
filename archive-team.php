@@ -7,7 +7,7 @@
   <div class="row text-center wp2">
     <h1>Who we Are</h1>
     <p class="headline">We are a team of cartographers, coders, forest monitors, GIS experts, gender specialists and econometric modelers. Our team spans three continents and works to build simple yet robust technology, train local organizations,<br> and expand our partnerships.   </p>
-  	<p><a href="#team">Team</a> | <a href="#board">Board</a></p>
+  	<p>Navigate to: <a href="#team">Team</a> | <a href="#board">Board</a> | <a href="#advisory">Advisory Group</a></p>
   </div>
   <div class="divider"></div>
   <div class="row">
@@ -76,7 +76,7 @@
   </div>
   <div class="divider"></div>
   <div class="row">
-  	<h2 class="text-center">Advisory Group</h2>
+  	<h2 class="text-center" id="advisory">Advisory Group</h2>
     <div class="large-12 columns">
      <?php query_posts('post_type=team&category_name=advisory-group'); while ( have_posts() ) : the_post(); ?>
 
