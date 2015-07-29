@@ -65,6 +65,12 @@
   </div>
 </div>
 <div class="action">
+    <figure class="large-6 columns featr" style="background: url('http://moabi.org/wp-content/uploads/2015/07/DSC01975-1024x768.jpg');background-size: cover; background-position: bottom;">
+      <a href="http://moabi.org/reports/monitoring-redd-safeguards-with-communities-in-mai-ndombe-district-drc/"><figcaption>
+        <h3>Monitoring REDD+ Safeguards with Communities in Mai Ndombe District</h3>
+        <p class="headline">A REDD+ Safeguard Information System (SIS) requires not only rigorous data collection on local social/environmental investments and grievances but must also adapt to the constraints of regions with limited infrastructure and financial resources. </p>
+      </figcaption></a>
+    </figure>
     <figure class="large-6 columns featr" style="background: url('http://178.62.69.5/wp-content/uploads/2015/06/palm2-1024x768.jpg');background-size: cover; background-position: bottom;">
       <a href="http://rdc.moabi.org/palm-oil-boom/en/#5/-2.877/22.830&layers=moabi_forest_cover" target="_blank"><figcaption>
         <h3>Palm Oil Boom?</h3>
@@ -83,12 +89,7 @@
         <p class="headline">With vast tracks of tropical forest straddling the equator, an abundance of freshwater, and a favorable climate, DRC could follow Indonesia and become a major exporter of palm oil. </p>
       </figcaption></a>
     </figure>
-    <figure class="large-6 columns featr" style="background: url('<?php bloginfo('template_directory'); ?>/img/place2.jpg');background-size: cover; background-position: bottom;">
-      <a href="http://rdc.moabi.org/redd_risk/en/#5/-2.833/22.830&layers=moabi_redd_projects"><figcaption>
-        <h3>Competition for resources threatens REDD+ in DRC</h3>
-        <p class="headline">Future forest loss in DRC is very uncertain. Decades of conflict and under investment have prevented the industrial scale of forestry and agricultural activities that characterized deforestation in Brazil and Indonesia – the other two large rainforest countries.</p>
-      </figcaption></a>
-    </figure>
+    
 </div>
 
 <div class="grey content">
