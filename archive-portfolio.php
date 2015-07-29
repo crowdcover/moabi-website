@@ -10,6 +10,33 @@
   </div>
 
 </div>
+
+<!-- BELOW IS PLACEHOLDER CONTENT -->
+
+<div class="work">
+  <figure class="large-4 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
+    <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
+      <h3>A collaborative mapping initiative to monitor natural resources in DRC and strengthen REDD+ safeguards</h3>
+    </figcaption></a>
+  </figure>
+  <figure class="large-4 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
+    <a href="http://loggingroads.org/" target="_blank"><figcaption>
+      <h3>A joint initiative with the World Resource Institute to map all the logging roads in the Congo Basin using crowdsourcing</h3>
+    </figcaption></a>
+  </figure>
+  <figure class="large-4 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/congo.jpg" >
+    <a href="http://www.congomines.org/" target="_blank"><figcaption>
+      <h3>A Carter Center project using Moabi technology to document mining operations and contracts in DRC</h3>
+    </figcaption></a>
+  </figure>
+
+</div>
+
+<!-- THIS IS THE CUSTOM POST TYPE LOOP, UNCOMMENT WHEN CONTENT IS READY
+
 <div class="work">
 
 <?php
@@ -31,5 +58,7 @@ if ( $query->have_posts() ) : ?>
 <?php endif; ?>
 
 </div>
+
+-->
 
 <?php get_footer(); ?>
