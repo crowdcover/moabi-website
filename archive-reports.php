@@ -37,7 +37,7 @@
 
 <!-- REMOVE THIS SECTION BELOW, JUST PLACEHOLDER CONTENT -->
 
-	<figure class="large-6 columns featr" style="background: url('http://moabi.org/wp-content/uploads/2015/08/palm_suitability_w_legend.jpg');background-size: cover; background-position: bottom;">
+	<figure class="large-6 columns featr" style="background: url('http://moabi.org/wp-content/uploads/2015/08/palm_suitability_w_legend-e1438410469356.jpg');background-size: cover; background-position: bottom;">
       <a href="http://rdc.moabi.org/palm-oil-boom/en/#5/-2.877/22.830&layers=moabi_forest_cover" target="_blank"><figcaption>
         <h3>Palm Oil Boom?</h3>
         <p class="headline">IIASA scientists map where palm oil could expand in the Democratic Republic of Congo to become a major palm oil producer</p>
