@@ -8,7 +8,7 @@
 
 <div class="content" id="intro">
   <div class="row text-center wp2">
-    <h2><?php the_title(); ?></h2>
+    <h1><?php the_title(); ?></h1>
     <span><p><?php the_time('F jS, Y') ?></p></span>
   </div>
   
