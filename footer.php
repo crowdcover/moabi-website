@@ -65,5 +65,7 @@
    <script>
       $(document).foundation();
     </script>
+    
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"c9928f27cfee63c3d616d8372","lid":"84ecc8de67"}) })</script>
   </body>
 </html>
