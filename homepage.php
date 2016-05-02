@@ -31,19 +31,25 @@
 </div>
 
 <div class="work">
-  <figure class="large-4 columns">
+  <figure class="large-3 columns">
+    <img src="<?php bloginfo('template_directory'); ?>/img/maphubs.jpg" >
+    <a href="https://maphubs.com" target="_blank"><figcaption>
+      <h3>A home for the world's open map data and an easy tool for making and sharing maps</h3>
+    </figcaption></a>
+  </figure>
+  <figure class="large-3 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/moabi.jpg" >
     <a href="http://rdc.moabi.org/en/" target="_blank"><figcaption>
       <h3>A collaborative mapping initiative to monitor natural resources in DRC and strengthen REDD+ safeguards</h3>
     </figcaption></a>
   </figure>
-  <figure class="large-4 columns">
+  <figure class="large-3 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/logging.jpg" >
     <a href="http://loggingroads.org/" target="_blank"><figcaption>
       <h3>A joint initiative with the World Resource Institute to map all the logging roads in the Congo Basin using crowdsourcing</h3>
     </figcaption></a>
   </figure>
-  <figure class="large-4 columns">
+  <figure class="large-3 columns">
     <img src="<?php bloginfo('template_directory'); ?>/img/congo.jpg" >
     <a href="http://www.congomines.org/" target="_blank"><figcaption>
       <h3>A Carter Center project using Moabi technology to document mining operations and contracts in DRC</h3>
@@ -89,7 +95,7 @@
         <p class="headline">With vast tracks of tropical forest straddling the equator, an abundance of freshwater, and a favorable climate, DRC could follow Indonesia and become a major exporter of palm oil. </p>
       </figcaption></a>
     </figure>
-    
+
 </div>
 
 <div class="grey content">
