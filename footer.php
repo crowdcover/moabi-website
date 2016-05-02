@@ -39,7 +39,7 @@
   <div class="row divider"></div>
   <div class="row">
     <div class="large-4 columns">
-      <p>© Copyright 2015</p>
+      <p>© Copyright 2016</p>
     </div>
     <div class="large-6 columns stayc">
       <p><a href="#top">Back to top <i class="fa fa-angle-up"></i></a><p>
@@ -65,7 +65,7 @@
    <script>
       $(document).foundation();
     </script>
-    
+
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"c9928f27cfee63c3d616d8372","lid":"84ecc8de67"}) })</script>
   </body>
 </html>
