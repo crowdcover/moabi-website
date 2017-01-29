@@ -63,6 +63,7 @@
   <script src="<?php bloginfo('template_directory'); ?>/js/foundation.min.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/js/waypoints.min.js"></script>
    <script>
+      $.noConflict();
       $(document).foundation();
     </script>
 
