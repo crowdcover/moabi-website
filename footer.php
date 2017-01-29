@@ -62,10 +62,11 @@
   <script src="<?php bloginfo('template_directory'); ?>/js/classie.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/js/foundation.min.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/js/waypoints.min.js"></script>
-   <script>
-      jQuery.noConflict();
-      $(document).foundation();
-    </script>
+  <script type="text/javascript">
+   (function( $ ) {
+  $(document).foundation;
+  })(jQuery);
+  </script>
 
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"c9928f27cfee63c3d616d8372","lid":"84ecc8de67"}) })</script>
   </body>
